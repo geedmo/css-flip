@@ -1,0 +1,11 @@
+.translate-this {
+  -webkit-transform: translate3d( 10px, 20px, 0) rotate(10deg) !important;
+          transform: translate3d(     10px, 20px, 0) !important;
+          transform: translate3d(-10px, 20px, 0);
+          transform: translate3d(+10px, 20px, 0) !important;
+  -webkit-transform: translate(-10px, 20px) rotate(10deg);
+          transform: translate(10px, 20px) !important;
+          transform: translate(+10px, 20px);
+          transform: translate(-10px, 20px) !important;
+
+}
